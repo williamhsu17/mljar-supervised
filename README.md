@@ -18,6 +18,23 @@
 
 ---
 
+## 專案介紹
+
+mljar-supervised是一個自動機器學習Python套件，可以處理表格資料。它的設計是為了節省資料科學家的時間。它抽象了預處理資料、建構機器學習模型、執行超參數調優以找到最佳模型的常見方式。它不是黑箱，因為你可以看到ML管線是如何建構的（每個ML模型都有詳細的Markdown報告）。
+
+mljar-supervised將幫助你。
+
+ - 解釋和理解你的資料（自動探索性資料分析）
+ - 嘗試許多不同的機器學習模型（演算法選擇和超參數調整）
+ - 從分析中建立具有所有模型細節的Markdown報告（Atomatic-Documentation）
+ - 儲存、重新執行和載入分析和ML模型
+
+ 它內建了三種工作模式。
+ - 解釋模式，非常適合解釋和理解資料，有很多資料解釋，比如決策樹視覺化、線性模型係數顯示、換元匯入和資料的SHAP解釋
+ - 執行用於建構ML管道，以便在營運中使用。
+ - 競爭模式，透過合集和堆疊訓練高調整的ML模型，目的是用於ML比賽
+
+
 ## Table of Contents
 
  - [Automated Machine Learning](https://github.com/mljar/mljar-supervised#automated-machine-learning-rocket)
